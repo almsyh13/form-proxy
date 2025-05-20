@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    const scriptURL = "https://script.google.com/macros/s/PASTE_URL_KAMU/exec"; // ganti
+    const scriptURL = "https://script.google.com/macros/s/AKfycbyMTmTB5eUqHpt6-grP6DiNT7w3HPzkPkLGdtbB3mjiIsB3uMY8e3mdCQXpRjtL_zobtQ/exec"; // ganti
 
     try {
       const response = await fetch(scriptURL, {
