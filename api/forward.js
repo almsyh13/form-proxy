@@ -12,7 +12,7 @@ export default async function handler(req, res) {
   }
 
   const forwardURL =
-    "https://script.google.com/macros/s/AKfycbyMTmTB5eUqHpt6-grP6DiNT7w3HPzkPkLGdtbB3mjiIsB3uMY8e3mdCQXpRjtL_zobtQ/exec";
+    "https://script.google.com/macros/s/AKfycbyX1ykfZN1A4NzAZGRFyIWhgi2ScQheRvsq-wOUl9z5tfUnwPE0BVs732l2AxL9LOf8KA/exec";
 
   try {
     const response = await fetch(forwardURL, {
